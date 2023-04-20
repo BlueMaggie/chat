@@ -17,5 +17,5 @@ services:
     build: ./chatgpt-web
     container_name: chatgpt-web
     environment:
-      - OPENAI_API_KEY=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
+      OPENAI_API_KEY: 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
     restart: always
